@@ -48,9 +48,6 @@ python gen_parsing.py --input-dir ./inputs \
       --model-restore ./checkpoints/final.pth
 ```
 you can visual a parsing feature map by ```python View.py``` <br />
-<div align=center>
-<img src="https://github.com/liujf69/EPP-Net/blob/master/Parsing/S001C001P001R001A001.png"/>
-</div>
 
 # Pose branch
 ## Training NTU60
