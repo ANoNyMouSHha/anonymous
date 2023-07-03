@@ -1,8 +1,5 @@
 # EPP-Net
 **This is the official repo of EPP-Net.**
-<div align=center>
-<img src="https://github.com/liujf69/EPP-Net/blob/master/Parsing/feature_maps.png"/>
-</div>
 
 # Prerequisites
 You can install necessary dependencies by running ```pip install -r requirements.txt```  <br />
@@ -27,7 +24,6 @@ Then, you need to install torchlight by running ```pip install -e torchlight``` 
         S018C001P008R001A061.skeleton
         ...
 ```
-6. Extract person frames from the video dataset according to the following project: [Extract_NTU_Person](https://github.com/liujf69/Extract_NTU_Person) <br />
 ## Process skeleton data
 ```
 cd ./data/ntu or cd ./data/ntu120
@@ -91,5 +87,3 @@ On the NTU60 benchmark of XView, run:
 ```
 python ensemble.py --benchmark NTU60XView --joint_Score ./Pose_Score/ntu60_XView_joint.pkl --bone_Score ./Pose_Score/ntu60_XView_bone.pkl --jointmotion_Score ./Pose_Score/ntu60_XView_jointmotion.pkl --bonemotion_Score ./Pose_Score/ntu60_XView_bonemotion.pkl --parsing_Score ./Parsing_Score/NTU60_XView.pkl --val_sample ./Val_Sample/NTU60_XView_Val.txt
 ```
-# Contact
-For any questions, feel free to contact: ```liujf69@mail2.sysu.edu.cn```
